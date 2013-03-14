@@ -19,7 +19,7 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'gdnlteamDB');
+define('DB_NAME', 'ProjetGDNL');
 
 /** Utilisateur de la base de données MySQL. */
 define('DB_USER', 'root');
@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'qlcUn}D+ZX.PE9}/%wG^8]SqWsY:G=kd4aZ.8btWIf[,}m3GxN@H&I *b;+?b!iM');
-define('SECURE_AUTH_KEY',  'fuew>C!qnFdLU5$vC`S* :k]#IPOV6J>{!+>MF2h #>FX(tZc8e=>>#^z0lLJ`e3');
-define('LOGGED_IN_KEY',    '=tknQ`N^)|;_XQ-gkk&mmcs_oOdDM,EXED?YOpSrG!mHnYVkp(^I 2`K/zZFS(bn');
-define('NONCE_KEY',        'p)_~Oe5R;H(iR$NPVGG?1BExM~ b uB{W}O`t2bW$@15]3v9q+ 8kqjEVR<h7EI-');
-define('AUTH_SALT',        '#%Hk{d`7Hsr7/SZt[6YG`z(-.<,ZS<ZDc-_7+E;Nv-MdZAg*0VR._teWeFFPSejd');
-define('SECURE_AUTH_SALT', 'Mqi)>LG&0>1IJj1)dY^VBx:poFK4$ZR$=K+DgwB=<XZKQVH(`+7sku8Dk*I]LlgY');
-define('LOGGED_IN_SALT',   'VFd9<Pdja[;w}P7xa`4eSCDBu=qJ!`QqB4^x1!yp0rJ5fJR,{P;W8:-1+BjExRYJ');
-define('NONCE_SALT',       '(Bc3tSNEIGohQ+.xZ>Es0j32?x2t=igg4F4$~>RGksMHFs 9}wA%*lf!8D5/9t;3');
+define('AUTH_KEY',         'TR)o<QotrL{Mt);#^wokDFz)LB/w/uqumH1A-LGZUgz8N_GfZx(8m}uO/g^*26ca');
+define('SECURE_AUTH_KEY',  ']2`Ym=/=:+d=tG)wK-lw3.vD&5JDvMT0R(L2FE_h?[_vP6`dVSt{xhrt8*r`laFR');
+define('LOGGED_IN_KEY',    'lNSP+9l]3yV}Bt(1e&Dq]E|qGqRpVD_k70F.m.u1^DcDdafCmVT,Iwz6AEZYasaL');
+define('NONCE_KEY',        'q$E{wA^hCS,Oh@)r~ir_0HW,H`~}f0gpM-,lbTu-uH!Nc?u&assx]Ml~>yytIIr?');
+define('AUTH_SALT',        'Jkdwch>1NMv+&|Dq>H57-i7f0w]$1Xigt+3^xEb<cs-ul}lmHuIQL&zM(}cb1/JR');
+define('SECURE_AUTH_SALT', 'Is[B9~8/z9y$*`#CkQs63rUZ>Qj+SJ+UF$Zxo?gHA1[.Qht1n~!GV(:y>^K;2ZP2');
+define('LOGGED_IN_SALT',   '&GC-~w2ux5UW!}j6v)Dgm@jl#8xW|eHx{[3q#)hXq1I>GeSbcuw<WY.K)H%mB0Uv');
+define('NONCE_SALT',       'x#~>FR}Bl]-r^[zc7xd7^]L-cp%/a-~FKqg#1}%@aP]!uV`3KF.[J{_!|7&F<>-f');
 /**#@-*/
 
 /**
