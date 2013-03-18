@@ -8,12 +8,7 @@ get_header();
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 <?php the_post_thumbnail('thumbnail'); ?>
-<div class="meta">
-<?php edit_post_link(__('Edit This', 'northern')); ?>
-<ul>
-<li><?php northern_the_breadcrumb(); ?></li>
-</ul>
-</div>
+
 <?php the_content(__('(more...)', 'northern')); ?>
 <div class="commentlink">
 <?php wp_link_pages(); ?>

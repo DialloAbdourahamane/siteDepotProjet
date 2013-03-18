@@ -318,7 +318,7 @@ function amuCSVToRegister(){
 	* cleans junk from csv data, establishes lines, makes it all useable
 */
 
-function parse_csv($file,$comma=',',$quote='"',$newline="\n") {
+function parse_csv($file,$comma=';',$quote='"',$newline="\n") {
     $db_quote = $quote . $quote;
     //clean up data
     $file = trim($file);
